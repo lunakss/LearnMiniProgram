@@ -1,28 +1,16 @@
-// pages/about/about.js
+// pages/home/home.js
+//getApp获取App()产生的示例对象
+const app = getApp();
+console.log(app.globalData.name);
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    name:'code',
-    students:[
-      {id:1,age:21,name:'A'},
-      {id:2,age:22,name:'B'},
-      {id:3,age:23,name:'C'}
-    ],
-    counter:0
+
   },
-  add(){
-    this.setData({
-      counter : this.data.counter + 1
-    })
-  },
-  subtract(){
-    this.setData({
-      counter : this.data.counter - 1
-    })
-  },
+
   /**
    * 生命周期函数--监听页面加载
    */
@@ -77,5 +65,8 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+  handGetUserInfo:function (event) {
+    console.log(event);
   }
 })

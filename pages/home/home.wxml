@@ -1,0 +1,2 @@
+<!--pages/home/home.wxml-->
+<button size="mini" open-type="getUserInfo" bindgetuserinfo="handGetUserInfo">获取授权</button>

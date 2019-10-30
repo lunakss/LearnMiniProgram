@@ -1,2 +1,10 @@
 <!--pages/about/about.wxml-->
-<text class='title'>hello world</text>
+<text class='title'>{{name}}</text>
+<!-- 遍历 -->
+<view wx:for="{{students}}" wx:key="item.id">{{item.name}}-->{{item.age}}</view>
+<view>{{counter}}</view>
+<!-- 绑定方法 -->
+<button size="mini" bindtap="add">+</button>
+<button size='mini' bindtap='subtract'>-</button>
+<!-- 展示用户信息方法 -->
+<open-data type="userNickName"></open-data>
