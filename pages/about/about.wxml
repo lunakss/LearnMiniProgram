@@ -1,2 +1,2 @@
 <!--pages/about/about.wxml-->
-<text class='title'>hello world</text>
+<text class='title' space="ensp">hello world</text>
