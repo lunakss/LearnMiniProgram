@@ -1,0 +1,14 @@
+<!--pages/wxs/wxs.wxml-->
+<!-- wxs定义方式 -->
+<!-- <wxs module="info">
+  //js代码 es5语法
+  var message = "hello world";
+module.exports = {
+  message:message
+}
+</wxs> -->
+<!-- 定义在单独的wxs文件中，再使用wxs标签进行导入 -->
+<!-- 不能使用绝对路径，必须使用相对路径 -->
+<wxs src="../../wxs/info.wxs" module="info" />
+<view>{{info.message}}</view>
+<view>{{info.sum(20,30)}}</view>
