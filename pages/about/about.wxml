@@ -1,2 +1,19 @@
-<!--pages/about/about.wxml-->
-<text class='title'>hello world</text>
+<!-- 传递数据 -->
+<!-- 组件js声明变量名，组件wxml绑定该变量，父页面调用组件定义该变量的值 -->
+
+<!-- 传递样式 -->
+<!-- 组件wxml定义class名，组件js声明该class名，父页面给该class名赋值，父页面给所赋值定义不同class样式 -->
+<my-props titles="标题1" contentclass="one"/>
+<my-props titles="标题2" contentclass="two"/>
+<my-props contentclass="three"/>
+
+<view>-----------------------</view>
+<!-- 传递事件 -->
+<!-- 
+    1.子组件绑定事件，
+    2.子组件对该事件使用triggerEvent发送
+    3.父页面调用子组件绑定发送的事件名
+    4.父页面定义绑定的事件
+ -->
+<view>简单计数：{{counter}}</view>
+<my-event bind:increment="incrementClick"/>

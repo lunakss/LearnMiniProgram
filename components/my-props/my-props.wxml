@@ -1,0 +1,3 @@
+<!--components/my-props/my-props.wxml-->
+<view class="title">组件传值标题：{{titles}}</view>
+<view class="content contentclass">组件传值内容：{{titles}}</view>

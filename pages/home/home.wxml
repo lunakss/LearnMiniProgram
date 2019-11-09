@@ -1,0 +1,41 @@
+<!--pages/home/home.wxml-->
+<!-- 事件对象的分析 -->
+<button id="btn" size="mini" 
+        bindtap="handleEventClick"
+        bindtouchend="handleEventEnd">事件对象</button>
+<!-- touches 和 changedTouches的区别 -->
+<!-- 1.在touchend中不同 touches:[] changedTouches:[1]
+     2.多手指触摸时不同
+         touches:当前屏幕上所有触摸点的列表
+         changedTouches:触发事件改变的触摸点的集合
+ -->
+
+ <view id="outer" class="outer" bindtap="handleOuter">
+  外层view
+  <view id="inner" class="inner" bindtap="handleInner">内层view</view>
+ </view>
+<!-- currentTarget记录触发事件的view
+     点击内层产生事件后冒泡触发外层事件
+     Target记录产生事件的view
+ -->
+
+<!-- 事件传值  data-   -->
+ <view class="content">
+  <block wx:for="{{titles}}" wx:key="{{index}}">
+    <view class="item" bindtap="handleClick" data-index="{{index}}" data-item="{{item}}">{{item}}</view>
+  </block>
+ </view>
+
+ <!-- 事件捕获和时间冒泡
+    bind一层层传递
+    catch阻止事件进一步传递
+      capture-bind:tap
+      capture-catch:tap 
+
+      bindtap
+      catchtap
+
+  -->
+
+  <!-- 使用my-cpn组件 -->
+  <my-cpn/>

@@ -2,3 +2,12 @@
 .title{
   color:red
 }
+.one{
+  color:pink;
+}
+.two{
+  color:yellow;
+}
+.three{
+  color:purple;
+}
