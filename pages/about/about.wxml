@@ -7,10 +7,14 @@
 </template>
 <template is="contentItem" data="{{index:'按钮',msg:'消息'}}"/>
 <!-- 
-导入模板    <import src=""> 不能进行递归导入
 使用模板    <template is="" />
-include引入<include src="">
-将公共的wxml中的组件抽取到一个文件中
-不能导入template/wxs，可以进行递归导入
  -->
+
+ <!-- import导入
+    1.主要是导入template
+    2.不能进行递归导入
+      include导入
+    1.将公共的wxml中的组件抽取到一个文件中
+    2.不能导入template/wxs，可以进行递归导入
+  -->
 
