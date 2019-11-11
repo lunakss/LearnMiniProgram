@@ -1,4 +1,5 @@
 // pages/about/about.js
+import request from '../../network/request.js'
 Page({
 
   /**
@@ -12,7 +13,20 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    request({
+      url: 'https://fx.sxjszx.com.cn/appinterface/Person/hobby'
+    }).then(res => {
+      console.log(res);
+    }).catch(err => {
+      console.log(err);
+    })
+    //发送网络请求
+    // wx.request({
+    //   url: 'https://fx.sxjszx.com.cn/appinterface/Person/hobby',
+    //   success:function(res){
+    //     console.log(res);
+    //   }
+    // })
   },
 
   /**
