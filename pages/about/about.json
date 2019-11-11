@@ -1,6 +1,8 @@
 {
   "usingComponents": {
     "my-props":"/components/my-props/my-props",
-    "my-event":"/components/my-event/my-event"
+    "my-event":"/components/my-event/my-event",
+    "my-sel":"/components/my-sel/my-sel",
+    "my-slots":"/components/my-slots/my-slots"
   }
 }

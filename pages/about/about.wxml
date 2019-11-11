@@ -15,5 +15,21 @@
     3.父页面调用子组件绑定发送的事件名
     4.父页面定义绑定的事件
  -->
+ <view>------子组件控制父页面数据内容------</view>
 <view>简单计数：{{counter}}</view>
 <my-event bind:increment="incrementClick"/>
+
+<!-- 1.引用组件定义id值或class值
+     2.父页面绑定方法内通过selectComponent(id或class)取得组件对象
+     3.通过该对象修改子组件数据，推荐调用组件内部方法的形式
+ -->
+<view>-------父页面控制子组件数据内容------</view>
+<my-sel id="sel"></my-sel>
+<button size="mini" bind:tap="handleIncrementCpn">增加</button>
+
+<!-- 类似vue，注意点必须在Component对象中添加一个选项：options->multipleSlots:true -->
+<view>-----插槽的基本使用-----</view>
+<my-slots>
+  <button slot="one">替换插槽一</button>
+  <text slot="two">替换插槽二</text>
+</my-slots>

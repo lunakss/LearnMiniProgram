@@ -1,0 +1,43 @@
+[33m934be58[m[33m ([m[1;36mHEAD[m[33m, [m[1;33mtag: 03_组件传递数据，样式，事件[m[33m)[m HEAD@{0}: checkout: moving from a16d64b47e2437b03f69a3d06de3f90b65fb7394 to 03_组件传递数据，样式，事件
+[33ma16d64b[m[33m ([m[1;33mtag: 02.1二改template[m[33m)[m HEAD@{1}: commit: 推送
+[33m364ef9c[m[33m ([m[1;32mmaster[m[33m)[m HEAD@{2}: checkout: moving from 43e38fac868935acacf1933e0a396b809fcf8a68 to 02_wxs和template使用
+[33m43e38fa[m HEAD@{3}: checkout: moving from 364ef9c052aa9d1b4e130e9cad5961d0445e4cc0 to 43e38
+[33m364ef9c[m[33m ([m[1;32mmaster[m[33m)[m HEAD@{4}: checkout: moving from 934be58ce68ce2d8a452296ea699522b4d7e7171 to 02_wxs和template使用
+[33m934be58[m[33m ([m[1;36mHEAD[m[33m, [m[1;33mtag: 03_组件传递数据，样式，事件[m[33m)[m HEAD@{5}: checkout: moving from 364ef9c052aa9d1b4e130e9cad5961d0445e4cc0 to 03_组件传递数据，样式，事件
+[33m364ef9c[m[33m ([m[1;32mmaster[m[33m)[m HEAD@{6}: checkout: moving from 43e38fac868935acacf1933e0a396b809fcf8a68 to 02_wxs和template使用
+[33m43e38fa[m HEAD@{7}: merge 43e38: Fast-forward
+[33m364ef9c[m[33m ([m[1;32mmaster[m[33m)[m HEAD@{8}: checkout: moving from 43e38fac868935acacf1933e0a396b809fcf8a68 to 02_wxs和template使用
+[33m43e38fa[m HEAD@{9}: commit: 推送template修改
+[33m364ef9c[m[33m ([m[1;32mmaster[m[33m)[m HEAD@{10}: checkout: moving from ceaf93fc7a4fcfbb430a28ce11cc9755255f32aa to 364ef
+[33mceaf93f[m HEAD@{11}: commit: 二次导入tag02
+[33m364ef9c[m[33m ([m[1;32mmaster[m[33m)[m HEAD@{12}: checkout: moving from bd6e896ae6af9414c601e5264ebafbbeeb765193 to 364ef
+[33mbd6e896[m HEAD@{13}: checkout: moving from afc0bba1a2b460d0fe7b87240465e78d36682e4f to bd6e8
+[33mafc0bba[m HEAD@{14}: checkout: moving from 364ef9c052aa9d1b4e130e9cad5961d0445e4cc0 to afc0b
+[33m364ef9c[m[33m ([m[1;32mmaster[m[33m)[m HEAD@{15}: checkout: moving from bd6e896ae6af9414c601e5264ebafbbeeb765193 to 364ef
+[33mbd6e896[m HEAD@{16}: commit: 二次提交
+[33mafc0bba[m HEAD@{17}: commit: 二次提交
+[33m364ef9c[m[33m ([m[1;32mmaster[m[33m)[m HEAD@{18}: checkout: moving from 934be58ce68ce2d8a452296ea699522b4d7e7171 to 364ef
+[33m934be58[m[33m ([m[1;36mHEAD[m[33m, [m[1;33mtag: 03_组件传递数据，样式，事件[m[33m)[m HEAD@{19}: commit: 组件知识点
+[33m4824e39[m HEAD@{20}: checkout: moving from master to 4824e3
+[33m364ef9c[m[33m ([m[1;32mmaster[m[33m)[m HEAD@{21}: commit: wxs以及template的导入使用
+[33m272ceea[m HEAD@{22}: commit: 测试效果
+[33m4824e39[m HEAD@{23}: checkout: moving from 137b70119f35a1bfcb0488d95a109316ac434efc to master
+[33m137b701[m[33m ([m[1;33mtag: 01_全局配置和局部配置[m[33m, [m[1;31morigin/master[m[33m)[m HEAD@{24}: checkout: moving from master to 01_全局配置和局部配置
+[33m4824e39[m HEAD@{25}: reset: moving to 4824e
+[33m137b701[m[33m ([m[1;33mtag: 01_全局配置和局部配置[m[33m, [m[1;31morigin/master[m[33m)[m HEAD@{26}: checkout: moving from 137b70119f35a1bfcb0488d95a109316ac434efc to master
+[33m137b701[m[33m ([m[1;33mtag: 01_全局配置和局部配置[m[33m, [m[1;31morigin/master[m[33m)[m HEAD@{27}: checkout: moving from master to 01_全局配置和局部配置
+[33m137b701[m[33m ([m[1;33mtag: 01_全局配置和局部配置[m[33m, [m[1;31morigin/master[m[33m)[m HEAD@{28}: pull: Fast-forward
+[33m4824e39[m HEAD@{29}: reset: moving to 4824e
+[33m137b701[m[33m ([m[1;33mtag: 01_全局配置和局部配置[m[33m, [m[1;31morigin/master[m[33m)[m HEAD@{30}: checkout: moving from master to master
+[33m137b701[m[33m ([m[1;33mtag: 01_全局配置和局部配置[m[33m, [m[1;31morigin/master[m[33m)[m HEAD@{31}: checkout: moving from 137b70119f35a1bfcb0488d95a109316ac434efc to master
+[33m137b701[m[33m ([m[1;33mtag: 01_全局配置和局部配置[m[33m, [m[1;31morigin/master[m[33m)[m HEAD@{32}: checkout: moving from master to 01_全局配置和局部配置
+[33m137b701[m[33m ([m[1;33mtag: 01_全局配置和局部配置[m[33m, [m[1;31morigin/master[m[33m)[m HEAD@{33}: reset: moving to 137b7
+[33m4824e39[m HEAD@{34}: reset: moving to 4824e
+[33m137b701[m[33m ([m[1;33mtag: 01_全局配置和局部配置[m[33m, [m[1;31morigin/master[m[33m)[m HEAD@{35}: reset: moving to 137b7
+[33m4824e39[m HEAD@{36}: checkout: moving from 137b70119f35a1bfcb0488d95a109316ac434efc to master
+[33m137b701[m[33m ([m[1;33mtag: 01_全局配置和局部配置[m[33m, [m[1;31morigin/master[m[33m)[m HEAD@{37}: checkout: moving from master to 01_全局配置和局部配置
+[33m4824e39[m HEAD@{38}: reset: moving to 4824
+[33m137b701[m[33m ([m[1;33mtag: 01_全局配置和局部配置[m[33m, [m[1;31morigin/master[m[33m)[m HEAD@{39}: reset: moving to 137b701
+[33m4824e39[m HEAD@{40}: reset: moving to 4824e3
+[33m137b701[m[33m ([m[1;33mtag: 01_全局配置和局部配置[m[33m, [m[1;31morigin/master[m[33m)[m HEAD@{41}: commit: 全局配置和局部配置解析
+[33m4824e39[m HEAD@{42}: commit (initial): 初始化项目

@@ -12,5 +12,10 @@ Page({
     this.setData({
       counter:this.data.counter + 1
     })
+  },
+  handleIncrementCpn(){
+    const my_sel = this.selectComponent('#sel');
+    console.log(my_sel);
+    my_sel.changeNum(10)
   }
 })

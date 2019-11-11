@@ -1,0 +1,5 @@
+<!--components/my-slots/my-slots.wxml-->
+<view>开始</view>
+  <slot name="one"/>
+  <slot name="two"/>
+<view>结束</view>
