@@ -1,2 +1,6 @@
 <!--pages/about/about.wxml-->
 <text class='title'>hello world</text>
+<navigator url="/pages/detail/detail?name=code&age=18" open-type="navigate">跳转详情页</navigator>
+<view>{{title}}</view>
+<view>----------非标签跳转与返回</view>
+<button size="mini" bind:tap="next">跳转到详情页</button>

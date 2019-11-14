@@ -1,23 +1,19 @@
-// pages/about/about.js
+// pages/detail/detail.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    title:'哈哈哈'
-  },
-  next:function () {
-    wx.navigateTo({
-      url: '/pages/detail/detail?name=代码跳转&age=22',
-    })
+
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    //获得跳转携带的参数
+    console.log(options);
   },
 
   /**
@@ -45,7 +41,21 @@ Page({
    * 生命周期函数--监听页面卸载
    */
   onUnload: function () {
-
+    //1.获取首页的页面对象
+    //getCurrentPages当前所有栈的页面
+    const pages = getCurrentPages();
+    console.log(pages);
+    const home = pages[pages.length-2];
+    home.setData({
+      //调用页面对象的setData
+      title:'呵呵呵'
+    })
+  },
+  back:function () {
+    wx.navigateBack({
+      //控制返回的页面层级
+      delta:1
+    })
   },
 
   /**
